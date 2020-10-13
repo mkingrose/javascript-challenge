@@ -32,27 +32,3 @@ function filterclick(){
 
 }
 d3.selectAll("#filter - btn").on("click",filterclick);
-// // Select the button
-//     var button = d3.select("#filter-btn");
-//     button.on("click", function () {
-
-//         tbody.html("");
-
-//         // Select the input date get the raw HTML nodes
-
-//        
-
-//         var filteredData = tableData.filter(sighting => sighting.datetime === inputValue);
-//         console.log(filteredData);
-
-//         filteredData.forEach(function (selections) {
-//             console.log(selections);
-
-//             var row = tbody.append("tr");
-//             Object.entries(selections).forEach(function ([key, value]) {
-//                 console.log(key, value);
-//                 var cell = row.append("td");
-//                 cell.text(value);
-//             });
-//         });
-//     })});
